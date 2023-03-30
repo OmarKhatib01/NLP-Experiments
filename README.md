@@ -1,10 +1,14 @@
 # Language Modeling NLP Experiments
+ **By Omar Khatib:
+        - [LinkedIn](https://www.linkedin.com/in/omar-khatib-01/)
+        - [GitHub](https://github.com/OmarKhatib01)
+        - [Portfolio](https://omarkhatib01.github.io/)**
+
 The projects in this repository are created to experiment with different model architectures on different NLP tasks.  
 
  - The first project (Fakes Detection) uses the Feed Forward Neural Network (FFNN) and the Long Short Term Memory (LSTM) architectures in two different experimetns to classify different datasets of biographies into REAL or FAKE labels, where REAL indicates that the biography is a real one, and fake indicates that it was synthesized by another language model.
 
  - The second project (Question Answering) uses transformers imported from the [Hugging Face transformers library](https://huggingface.co/docs/transformers/index) to perform the NLP task of multiple choice question answering by fine tuning the bert-base-uncased  BERT pretrained model using a classification approach, and the gpt-2 pretrained model using a generative approach.
-
 
 # Project 1: Feed Forward NN / LSTM Fakes Detection 
 
@@ -148,15 +152,3 @@ In the main function found in [`question-answering-bert-gpt/question-answering.p
 For example, the following is a sample script to run from the root directory to get fine-tuned classifier Validation  and test accuracy
 
     python3 question-answering-bert-gpt/question-answering.py -model=classifier -mode=test
-
-
-
-# Authors
- - Omar Khatib:
-        - [LinkedIn](https://www.linkedin.com/in/omar-khatib-01/)
-        - [GitHub](https://github.com/OmarKhatib01)
-        - [Portfolio](https://omarkhatib01.github.io/)
-
- - Will Smart:
-        - [LinkedIn](https://www.linkedin.com/in/will-smart/)
-        - [GitHub](https://github.com/wsmartf)
